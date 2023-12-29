@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 20px 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo span {
+  font-size: 28px;
+}
+.logo h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav {
+  display: flex;
+}
+.nav span {
+  cursor: pointer;
+  margin-left: 15px;
+}
+.nav span a {
+  text-decoration: none;
+  color: #fff;
+}

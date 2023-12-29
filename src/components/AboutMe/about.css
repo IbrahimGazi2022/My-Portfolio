@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+}
+.about-text-left {
+  width: 50%;
+}
+.about-text-left p {
+  font-weight: 300;
+}
+.about-text-right {
+  width: 50%;
+  padding-left: 10px;
+}
+.about-text-right img {
+  margin: 20px 5px;
+  width: 62px;
+  height: 62px;
+} 

@@ -7,15 +7,32 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
 :root {
   --lighter: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
   --background: #191923;
 }
 body {
-  width: 100%;
   background-color: var(--background);
   color: #fff;
 }
+section {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  overflow: hidden !important;
+}
 .green {
   color: #01be96;
+}
+.container {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+}
+#light-color {
+  background: linear-gradient(159deg, rgb(0 0 0) 0%, rgb(49, 49, 61) 100%);
 }

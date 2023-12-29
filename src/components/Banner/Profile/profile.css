@@ -1,0 +1,61 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.profile-text h4 {
+  font-weight: 500;
+}
+.profile-text h1 {
+  font-size: 35px;
+  font-family: "Secular One", sans-serif;
+  letter-spacing: 2px;
+}
+.profile-text h3 {
+  font-weight: 500;
+  padding-bottom: 18px;
+}
+.profile-text p {
+  font-weight: 300;
+  padding-bottom: 35px;
+}
+.profile-text button {
+  padding: 12px 25px;
+  cursor: pointer;
+  background-color: #0e997b;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+}
+.profile-image img{
+  margin-top: -30px;
+  opacity: 0.6;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 35px;
+}
+.social-icons p {
+  margin-top: 10px;
+}
+.social-icons span {
+  width: 40px;
+  height: 38px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-color: #01be96;
+  position: relative;
+  transition: transform 400ms ease-in-out;
+}
+.social-icons span:hover {
+  transform: rotate(360deg);
+}
+.social-icons a {
+  color: #fff;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

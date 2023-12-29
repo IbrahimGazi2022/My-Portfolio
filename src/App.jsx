@@ -1,19 +1,23 @@
-import styled from "styled-components";
-import Header from "./components/Bannner/Header";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Header from "./components/Banner/Header/Header";
+import Profile from "./components/Banner/Profile/Profile";
+import Projects from "./components/Projects/Projects";
 
-const App = () => {
+export const App = () => {
   return (
-    <Container>
-      <Bannner>
+    <>
+      <section>
         <Header />
-      </Bannner>
-    </Container>
+        <Profile />
+      </section>
+      <section id="light-color">
+        <AboutMe />
+      </section>
+      <section >
+        <Projects />
+      </section>
+    </>
   );
 };
 
 export default App;
-
-const Container = styled.div``;
-const Bannner = styled.div`
-  background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
-`;
