@@ -1,0 +1,29 @@
+.address {
+  width: 50%;
+}
+
+.contact-form {
+  width: 50%;
+}
+
+input,
+textarea {
+  margin-top: 10px;
+  display: block;
+  background: transparent;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn {
+  background-color: #01be96;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
