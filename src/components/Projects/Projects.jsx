@@ -4,7 +4,7 @@ import "./projects.css";
 const Projects = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="project">
         <div className="project">
           <h1>
             Recent <span className="green">Projects</span>

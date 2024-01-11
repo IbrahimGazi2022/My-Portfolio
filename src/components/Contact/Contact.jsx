@@ -9,7 +9,7 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="container" id="contact">
       <div className="project">
         <h1>
           <span className="green">Contact </span>Me
@@ -60,7 +60,7 @@ const Contact = () => {
             <input type="email" id="email" name="email" required />
 
             <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+            <textarea id="message" name="message" rows="10" required></textarea>
 
             <button type="submit" className="btn">Submit</button>
           </form>

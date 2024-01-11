@@ -3,7 +3,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <div className="header">
         <div className="logo">
           <span className="green">
@@ -16,16 +16,13 @@ const Header = () => {
             <a href="#home">Home</a>
           </span>
           <span>
-            <a href="#service">Services</a>
+            <a href="#about">About Me</a>
           </span>
           <span>
             <a href="#project">Projects</a>
           </span>
           <span>
-            <a href="#client">Testimonials</a>
-          </span>
-          <span>
-            <a href="#footer">Portfolio</a>
+            <a href="#contact">Contact</a>
           </span>
         </div>
       </div>
